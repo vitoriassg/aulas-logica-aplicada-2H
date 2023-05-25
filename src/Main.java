@@ -16,5 +16,21 @@ public class Main {
         qualquer.falar();
         System.out.println(qualquer.falar("oi"));
 
+          //criar novos objetos
+
+        //declarar objetos
+          Pessoa rainha;
+
+          //instanciar objetos
+        rainha = new Pessoa();
+
+        //definir forma do objeto
+        rainha.nome = "Tina";
+        rainha.sobrenome = "turnner";
+
+        //definiçao de comportamento
+        rainha.falar( texto: "oi");
+
+
     }
 }

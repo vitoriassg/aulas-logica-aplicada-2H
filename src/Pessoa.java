@@ -1,7 +1,5 @@
 public class Pessoa {
-
-    // Atributos da classe
-    public String nome;
+    public class Pessoa extends Animal{
     public String sobrenome;
     // métodos da classe
     public void falar(){
